@@ -32,7 +32,7 @@ httpcore==1.0.9
 httptools==0.7.1
 httpx==0.28.1
 httpx-sse==0.4.3
-huggingface_hub==1.8.0
+huggingface_hub
 idna==3.11
 importlib_metadata==8.7.1
 importlib_resources==6.5.2
@@ -132,3 +132,4 @@ xxhash==3.6.0
 yarl==1.23.0
 zipp==3.23.0
 zstandard==0.25.0
+sentence-transformers==3.4.1
