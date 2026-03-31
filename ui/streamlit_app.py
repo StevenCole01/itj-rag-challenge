@@ -34,13 +34,11 @@ with st.sidebar:
         value=5
     )
     st.divider()
-    st.markdown("**Instructions**")
+    st.markdown("**Prerequisites**")
     st.write("1. Place PDFs in `./data`, then index them:")
     st.code("python scripts/ingest.py", language="bash")
-    st.write("2. Start the API:")
+    st.write("2. Ensure the Backend API is running:")
     st.code("python -m app.main", language="bash")
-    st.write("3. Start the UI:")
-    st.code("streamlit run ui/streamlit_app.py", language="bash")
 
 # Initialize chat history
 if "messages" not in st.session_state:
